@@ -19,7 +19,7 @@ This project implements a real-time **Object Detection** system to recognize and
 Below are the inference results of the trained model on random images from the test dataset:
 
 <!-- REPLACE 'results.jpg' WITH YOUR ACTUAL GRID IMAGE FILENAME -->
-![Coin Detection Results](results.jpg)
+![Coin Detection Results](results.png)
 
 > **Analysis:** The model demonstrates an average confidence score of over **90%**, with highly precise bounding boxes tightly fitting each coin.
 
