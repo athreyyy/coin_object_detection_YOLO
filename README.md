@@ -48,25 +48,3 @@ Below are the inference results of the trained model on random images from the t
 3.  **Configuration:** Dynamically generated the `data.yaml` file based on the dataset's `classes.txt`.
 4.  **Training:** Fine-tuned the pre-trained YOLO11s model for **60 epochs** at a **640px** image resolution.
 5.  **Inference:** Evaluated the best model weights (`best.pt`) on unseen test images to generate bounding boxes and confidence scores.
-
----
-
-## 📖 How to Use
-1.  Clone this repository:
-    ```bash
-    git clone https://github.com/username/coin-detection-yolo11.git
-    ```
-2.  Install the required dependencies:
-    ```bash
-    pip install ultralytics opencv-python matplotlib
-    ```
-3.  Run the `YOLO_Object_Detection.ipynb` notebook or use the following script for quick inference:
-    ```python
-    from ultralytics import YOLO
-    
-    # Load the trained model
-    model = YOLO('path/to/best.pt')
-    
-    # Perform object detection on an image
-    results = model.predict('your_image.jpg', save=True)
-    ```
